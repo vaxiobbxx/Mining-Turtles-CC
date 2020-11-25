@@ -36,7 +36,7 @@ end
 
 -- Init text
 mtcc_info("Mining Turtle CC Init")
-textutils.slowPrint("#####################")
+textutils.slowPrint("################################")
 
 
 if not fs.exists("mtcc_data") then
@@ -48,4 +48,10 @@ if not fs.exists("mtcc_data") then
     mtcc_info("Downloading Files...")
     sleep(1)
     mtcc_download("main.lua") 
+    mtcc_info("Finished Installation, Rebooting in 5 seconds")
+    sleep(5)
+    os.reboot()
 end
+
+sleep(2)
+shell.run("mtcc_data/main.lua")
