@@ -29,8 +29,8 @@ function mtcc_download(fn)
     mtcc_info("Downloading '" .. fn .. "'...")
     local fdata = http.get("https://raw.githubusercontent.com/vaxiobbxx/Mining-Turtles-CC/master/" .. fn)
     local f = fs.open("mtcc_data/" .. fn, 'w')
-    f.Write(fdata.readAll())
-    f.Close()
+    f.write(fdata.readAll())
+    f.close()
     mtcc_info("Finished Downloading '" .. fn "'. Proceeding")
 end
 
