@@ -11,5 +11,5 @@ if not installed, installs
 if installed, loads using the async lib
 ]===]--
 
-term.setCursorPos(0,0)
+term.setCursorPos(1,1)
 textutils.slowPrint("############################################")
