@@ -31,7 +31,7 @@ function mtcc_download(fn)
     local f = fs.open("mtcc_data/" .. fn, 'w')
     f.write(fdata.readAll())
     f.close()
-    mtcc_info("Finished Downloading '" .. fn "'. Proceeding")
+    mtcc_info("Finished Downloading '" .. fn .. "'. Proceeding")
 end
 
 -- Init text
