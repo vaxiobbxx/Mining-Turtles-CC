@@ -36,7 +36,7 @@ end
 
 -- Init text
 mtcc_info("Mining Turtle CC Init")
-textutils.slowPrint("################################")
+textutils.slowPrint("##################################")
 
 
 if not fs.exists("mtcc_data") then
