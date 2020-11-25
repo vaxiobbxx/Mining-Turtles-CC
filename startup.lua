@@ -12,4 +12,5 @@ if installed, loads using the async lib
 ]===]--
 
 term.setCursorPos(1,1)
-textutils.slowPrint("############################################")
+print("Mining Turtle CC Init")
+textutils.slowPrint("#####################")
